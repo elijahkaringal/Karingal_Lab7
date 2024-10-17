@@ -18,7 +18,7 @@ final_grade = (prelim * 0.3333) + (midterm * 0.3333) + (final * 0.3333)
 print(f"Hi {name} from {section}, Your final grade is {final_grade:.0f}")
 
 #grade points & description
-if (final_grade == 99 and final_grade == 100):
+if (final_grade == 99 or final_grade == 100):
     print ("Your GPA is equal to 1.00, which is Excellent")
 elif (final_grade >= 96 and final_grade <= 98):
     print ("Your GPA is equal to 1.25, which is Outstanding")
